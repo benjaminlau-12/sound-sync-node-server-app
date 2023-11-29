@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "1",
+        "name": "Missing You",
+        "artist": "Boston Bun",
+        "release-date": "1970-05-29",
+        "genre": "Dance/Electronic"
+    },
+    {
+        "_id": "2",
+        "name": "Self Care",
+        "artist": "Mac Miller",
+        "release-date": "2018-07-13",
+        "genre": "Hip-Hop/Rap"
+    },
+    {
+        "_id": "3",
+        "name": "Monaco",
+        "artist": "Bad Bunny",
+        "release-date": "1970-05-29",
+        "genre": "Latin"
+    },
+    {
+        "_id": "4",
+        "name": "Loba",
+        "artist": "Shakira",
+        "release-date": "1970-05-29",
+        "genre": "Latin"
+    },
+    {
+        "_id": "5",
+        "name": "Sprinter",
+        "artist": "Dave, Central Cee",
+        "release-date": "1970-05-29",
+        "genre": "UK Rap"
+    },
+    {
+        "_id": "6",
+        "name": "Freed From Desire",
+        "artist": "Gala",
+        "release-date": "1970-05-29",
+        "genre": "Dance"
+    },
+    {
+        "_id": "7",
+        "name": "Fake ID (Coke & Rum Remix)",
+        "artist": "Riton, Kah-Lo, GEE LEE",
+        "release-date": "1970-05-29",
+        "genre": "Electronic"
+    },
+    {
+        "_id": "8",
+        "name": "Mercedes Carota",
+        "artist": "Bad Bunny",
+        "release-date": "1970-05-29",
+        "genre": "Latin"
+    }
+]
