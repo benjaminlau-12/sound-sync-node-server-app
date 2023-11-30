@@ -54,5 +54,159 @@
         "artist": "Bad Bunny",
         "release-date": "1970-05-29",
         "genre": "Latin"
-    }
+    },
+    {
+        "_id": "9",
+        "name": "Diamonds",
+        "artist": "Rihanna",
+        "release-date": "2012-09-27",
+        "genre": "Pop"
+      },
+      {
+        "_id": "10",
+        "name": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "release-date": "1975-10-31",
+        "genre": "Rock"
+      },
+      {
+        "_id": "11",
+        "name": "September",
+        "artist": "Earth, Wind & Fire",
+        "release-date": "1978-11-18",
+        "genre": "R&B/Soul"
+      },
+      {
+        "_id": "12",
+        "name": "Billie Jean",
+        "artist": "Michael Jackson",
+        "release-date": "1983-01-02",
+        "genre": "Pop"
+      },
+      {
+        "_id": "13",
+        "name": "Hotel California",
+        "artist": "Eagles",
+        "release-date": "1977-12-08",
+        "genre": "Rock"
+      },
+      {
+        "_id": "14",
+        "name": "Dancing Queen",
+        "artist": "ABBA",
+        "release-date": "1976-08-15",
+        "genre": "Pop"
+      },
+      {
+        "_id": "15",
+        "name": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "release-date": "1991-09-10",
+        "genre": "Grunge"
+      },
+      {
+        "_id": "16",
+        "name": "Shape of My Heart",
+        "artist": "Sting",
+        "release-date": "1993-07-13",
+        "genre": "Pop"
+      },
+      {
+        "_id": "17",
+        "name": "Sweet Child o' Mine",
+        "artist": "Guns N' Roses",
+        "release-date": "1987-08-17",
+        "genre": "Rock"
+      },
+      {
+        "_id": "18",
+        "name": "Like a Prayer",
+        "artist": "Madonna",
+        "release-date": "1989-03-03",
+        "genre": "Pop"
+      },
+      {
+        "_id": "19",
+        "name": "Thriller",
+        "artist": "Michael Jackson",
+        "release-date": "1983-11-30",
+        "genre": "Pop"
+      },
+      {
+        "_id": "20",
+        "name": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "release-date": "1971-11-08",
+        "genre": "Rock"
+      },
+      {
+        "_id": "21",
+        "name": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "release-date": "1963-11-29",
+        "genre": "Pop"
+      },
+      {
+        "_id": "22",
+        "name": "Wonderwall",
+        "artist": "Oasis",
+        "release-date": "1995-10-30",
+        "genre": "Rock"
+      },
+      {
+        "_id": "23",
+        "name": "Boogie Wonderland",
+        "artist": "Earth, Wind & Fire",
+        "release-date": "1979-04-20",
+        "genre": "R&B/Soul"
+      },
+      {
+        "_id": "24",
+        "name": "Purple Rain",
+        "artist": "Prince",
+        "release-date": "1984-06-25",
+        "genre": "Pop"
+      },
+      {
+        "_id": "25",
+        "name": "Every Breath You Take",
+        "artist": "The Police",
+        "release-date": "1983-05-20",
+        "genre": "Rock"
+      },
+      {
+        "_id": "26",
+        "name": "Another Brick in the Wall",
+        "artist": "Pink Floyd",
+        "release-date": "1979-11-30",
+        "genre": "Rock"
+      },
+      {
+        "_id": "27",
+        "name": "Beat It",
+        "artist": "Michael Jackson",
+        "release-date": "1983-02-14",
+        "genre": "Pop"
+      },
+      {
+        "_id": "28",
+        "name": "Dancing in the Dark",
+        "artist": "Bruce Springsteen",
+        "release-date": "1984-05-03",
+        "genre": "Rock"
+      },
+      {
+        "_id": "29",
+        "name": "I Will Always Love You",
+        "artist": "Whitney Houston",
+        "release-date": "1992-11-03",
+        "genre": "Pop"
+      },
+      {
+        "_id": "30",
+        "name": "Let It Be",
+        "artist": "The Beatles",
+        "release-date": "1970-03-06",
+        "genre": "Pop"
+      }
 ]
