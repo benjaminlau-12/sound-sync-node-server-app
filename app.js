@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 import UserRoutes from './users/routes.js';
 import session from "express-session";
 import "dotenv/config";
+import LikesRoutes from './likes/routes.js';
 
 const app = express();
 
@@ -38,4 +39,5 @@ app.use(express.json());
 UserRoutes(app);
 Songs(app);
 app.listen(4000);
+LikesRoutes(app);
 
