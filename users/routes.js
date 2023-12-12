@@ -17,29 +17,7 @@ function UserRoutes(app) {
     const user = await dao.findUserByUsername(username);
     res.send(user);
   };
-  const findUserByCredentials = async (req, res) => {
-    let { username, password } = req.params;
-    password = sha256(password);
-    const user = await dao.findUserByCredentials(username, password);
-    res.send(user);
-  };
-  const createUser = async (req, res) => {
-    let { username, password, email } = req.params;
-
-    password = sha256(password);
-    console.log("create user");
-    let user = null;
-    try {
-      user = await dao.createUser({
-        username,
-        password,
-        email
-      });
-    } catch (e) {
-      console.log(e);
-    }
-    res.send(user);
-  };
+  
   const updateUser = async (req, res) => {
     const { id } = req.params;
     const user = req.body;
@@ -53,9 +31,9 @@ function UserRoutes(app) {
     let { email, password } = req.body;
     password = await sha256(password);
     const currentUser = await dao.findUserByCredentials(email, password);
-    console.log(currentUser);
     req.session['currentUser'] = currentUser;
     res.json(currentUser);
+
   };
 
 
@@ -89,6 +67,9 @@ const signup = async (req, res) => {
 
 
   const account = async (req, res) => {
+    console.log('Received account POST request');
+    console.log('Session:', req.session);
+    console.log('Session:', req.session['currentUser']);
     res.json(req.session['currentUser']);
   };
 
