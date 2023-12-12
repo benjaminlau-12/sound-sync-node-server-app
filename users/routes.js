@@ -67,9 +67,6 @@ const signup = async (req, res) => {
 
 
   const account = async (req, res) => {
-    console.log('Received account POST request');
-    console.log('Session:', req.session);
-    console.log('Session:', req.session['currentUser']);
     res.json(req.session['currentUser']);
   };
 
